@@ -18,17 +18,18 @@ public class prefix_sum {
         System.out.println("enter 5 element");
         for ( i = 0; i<=4;i++){
             a[i] = sc.nextInt();
-        // replace all the element of array1 to array2
+        
         }
         for ( i = 0; i<=4 ;i++){
             b[i] = a[i];
             
-    // calculate the prefix sum 
+    
     }for ( i = 1; i<=4 ;i++){
         b[i] = a[i]+ b[i-1];
-        // print the prefix element
+       
     }for ( i = 0; i<=4 ;i++){
         System.out.println(b[i]);
     }
 }
 }
+
